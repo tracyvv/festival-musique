@@ -4,22 +4,23 @@
 
 ## Le binôme
 
-| Prénom NOM | Identifiant Git | Groupe |
-|------------|-----------------|--------|
-|            |                 |        |
-|            |                 |        |
+| Prénom NOM   | Identifiant Git | Groupe |
+|------------  |-----------------|--------|
+|Tracy VALLEE  |tracyvv          |Créa 2  |
+|Damya DJOUDREZ|damyadjz         |Créa 2  |
 
 ### Répartition du travail
 
 _Qui tient quels fichiers ? À revoir toutes les 3-4 séances, en échangeant les rôles._
 
-- **[Nom 1] →**
-- **[Nom 2] →**
+- **Tracy →**
+- **Damya →**
 
 ## Le festival
 
-- **Thème :**
-- **En une phrase :**
+- **Thème :** Musique/RnB
+- **En une phrase :** Un festival de musique basé sur le RnB qui permettra d'élire les artistes et chansons préférées des spectateurs.
+- **Concours :** Vote entre plusieurs artistes/chansons/clips...
 - **Blind test envisagé :** audio / vidéo — sur quoi ?
 
 ## Lancer le projet
