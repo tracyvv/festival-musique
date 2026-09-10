@@ -1,4 +1,4 @@
-# Festi'JS — [nom de votre festival]
+# Festi'JS —Secret Place
 
 > Remplissez ce fichier en séance 1. C'est votre premier commit.
 

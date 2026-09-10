@@ -28,7 +28,9 @@ body {
 
 /* --- 4. Composants ------------------------------------------------------ */
 /* TODO séance 2 : en-tête, hero, cartes */
-
+nav ul{
+  
+}
 
 /* --- 5. Points de rupture ----------------------------------------------- */
 /* @media (min-width: 48em) { ... }   tablette */
