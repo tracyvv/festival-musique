@@ -1,5 +1,10 @@
 class Evenement {
-  constructor() {
+  constructor(titre, debut, duree, jour, scene) {
+    this.titre = titre;
+    this.debut = debut;
+    this.duree = duree;
+    this.jour = jour;
+    this.scene = scene;
   }
 
   heureFin() {
@@ -18,7 +23,8 @@ class Evenement {
   carte() {
     return `
       <li class="carte">
-        <h3>${}</h3>
+        <h3>${this.titre}</h3>
+        <p>${this.debut} - ${this.heureFin()}</p>
       </li>`;
   }
 }
