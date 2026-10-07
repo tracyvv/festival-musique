@@ -1,0 +1,72 @@
+/* ==========================================================================
+   Séance 4 — Grille de la programmation
+   Objectif : une grille qui s'adapte SANS media query, et une barre de
+   filtres qui passe à la ligne proprement.
+   ========================================================================== */
+
+/* --- BARRE DE FILTRES : Flexbox ---------------------------------------- */
+.barre-filtres {
+  /* TODO : disposer les champs sur une ligne, avec retour à la ligne
+     automatique quand la place manque. */
+}
+
+.champ {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.champ label {
+  font-size: 0.8rem;
+  color: var(--couleur-douce);
+}
+
+/* TODO : le champ de recherche doit occuper toute la place restante,
+   les listes déroulantes gardent leur taille. Un seul mot-clé suffit. */
+.champ-large {
+}
+
+
+/* --- LA GRILLE : CSS Grid ---------------------------------------------- */
+.grille-evenements {
+  /* TODO : une grille dont le nombre de colonnes s'adapte tout seul.
+     Piste : repeat(auto-fill, minmax(..., 1fr)) */
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+
+/* --- LA CARTE : Flexbox en colonne -------------------------------------- */
+.carte-evt {
+  border: 1px solid var(--bordure);
+  border-radius: 10px;
+  padding: 1rem;
+
+  /* TODO : faire en sorte que toutes les cartes d'une ligne aient la même
+     hauteur, et que le bas de la carte reste collé en bas même quand le
+     texte est court. */
+}
+
+.carte-evt-type {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--couleur-accent);
+}
+
+.carte-evt h2 {
+  font-size: 1.1rem;
+  margin: 0.35rem 0;
+}
+
+.carte-evt-meta {
+  font-size: 0.85rem;
+  color: var(--couleur-douce);
+  margin-bottom: 0.5rem;
+}
+
+
+/* --- EXTENSION : la tête d'affiche -------------------------------------- */
+/* TODO : sur grand écran seulement, cette carte occupe deux colonnes. */
+.carte-evt--une {
+}

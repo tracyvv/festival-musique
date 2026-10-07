@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programmation — TODO nom du festival</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/programmation.css">
+</head>
+<body>
+
+  <header class="site-entete">
+    <p class="logo">TODO — nom du festival</p>
+    <nav aria-label="Navigation principale">
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="programmation.html" aria-current="page">Programmation</a></li>
+        <li><a href="#">À propos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-programmation">
+    <h1>Programmation</h1>
+
+    <!-- BARRE DE FILTRES — décorative pour l'instant.
+         Elle deviendra fonctionnelle en séance 7 (DOM) puis 13 (événementiel).
+         Aujourd'hui, on ne travaille que sa mise en page en Flexbox. -->
+    <form class="barre-filtres" aria-label="Filtrer la programmation">
+      <div class="champ">
+        <label for="f-jour">Jour</label>
+        <select id="f-jour" name="jour">
+          <option>Tous</option><option>Vendredi</option><option>Samedi</option><option>Dimanche</option>
+        </select>
+      </div>
+      <div class="champ">
+        <label for="f-scene">Scène</label>
+        <select id="f-scene" name="scene">
+          <option>Toutes</option><option>TODO</option>
+        </select>
+      </div>
+      <div class="champ champ-large">
+        <label for="f-recherche">Rechercher</label>
+        <input id="f-recherche" type="search" name="q" placeholder="Un artiste, un titre…">
+      </div>
+      <button class="bouton" type="button">Filtrer</button>
+    </form>
+
+    <p class="compteur"><strong>8</strong> événements</p>
+
+    <!-- LA GRILLE — 8 cartes écrites à la main.
+         En séance 7, ce bloc sera généré par JavaScript à partir de vos données.
+         Aujourd'hui, on construit le contenant. -->
+    <section class="grille-evenements" aria-label="Liste des événements">
+
+      <article class="carte-evt carte-evt--une">
+        <p class="carte-evt-type">Concert · à la une</p>
+        <h2>TODO — tête d'affiche</h2>
+        <p class="carte-evt-meta">Samedi · 21 h 00 · TODO scène</p>
+        <p>TODO — deux phrases de description.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Concert</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Vendredi · 18 h 00 · TODO scène</p>
+        <p>TODO — une phrase.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Atelier</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Samedi · 14 h 00 · TODO scène</p>
+        <p>TODO — une description un peu plus longue que les autres, pour vérifier
+           que vos cartes gardent la même hauteur quand le texte varie.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Concert</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Samedi · 16 h 30 · TODO scène</p>
+        <p>TODO.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Atelier</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Dimanche · 11 h 00 · TODO scène</p>
+        <p>TODO — une phrase.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Concert</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Dimanche · 15 h 00 · TODO scène</p>
+        <p>TODO — une phrase.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Concert</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Vendredi · 20 h 00 · TODO scène</p>
+        <p>TODO — une phrase.</p>
+      </article>
+
+      <article class="carte-evt">
+        <p class="carte-evt-type">Atelier</p>
+        <h2>TODO — titre</h2>
+        <p class="carte-evt-meta">Dimanche · 17 h 00 · TODO scène</p>
+        <p>TODO — une phrase.</p>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-pied">
+    <p>TODO — dates, lieu, contact</p>
+  </footer>
+
+</body>
+</html>
